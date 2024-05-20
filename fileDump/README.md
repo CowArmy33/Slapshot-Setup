@@ -1,0 +1,11 @@
+# What is this repo?
+This roofer contains all of the assets that would be needed for the Slapshot-Remix Streaming program. You'll find a folder called file dump, which will contain everything that is used within an obscene collection, as well as a Python file that is used to generate said scene collection. All you need to do is follow the simple prompts and inputs, And then import the resulting JSON file into OBS studio. I cannot guarantee that this will work with stream labs OBS And as such, I would recommend using obs Studio, which can be downloaded from the following link. Just make sure to generate some sample files using the Slapshot-Remix program first, otherwise there may be some linking issues.
+
+OBS may also say that there are missing files upon importing, which is perfectly fine. All you need to do is link them correctly. There is also a tool inside of OBS that will allow you to automatically search through directories for appropriately named files, which I would highly recommend using. The reason why there is a python script at all is because there are some complex filters which would be very frustrating to set up by hand. As such, the script automatically links these files, assuming that you have the correct folder.
+
+So make sure to run the slap shot remix program first and click all buttons that may generate files. This includes: 
+- "[Prepare Stats](https://github.com/CowArmy33/Slapshot-Remix?tab=readme-ov-file#prepare-stats)" (Generates Pre-game Stats), 
+- "[Fetch Last Period](https://github.com/CowArmy33/Slapshot-Remix?tab=readme-ov-file#fetch-last-period)" (Generates Post-period stats), 
+- "[Add Game](https://github.com/CowArmy33/Slapshot-Remix?tab=readme-ov-file#add-game)" (Generates schedule), 
+- "[Set Game](https://github.com/CowArmy33/Slapshot-Remix?tab=readme-ov-file#set-game)" (Generates logos, team lists, and color files), 
+- and the "[Series Points](https://github.com/CowArmy33/Slapshot-Remix?tab=readme-ov-file#series-points)" (Generates Series Points text files)
